@@ -1,0 +1,23 @@
+name: i-Invested.co.uk
+favicon: null
+layout_spectrum: 0.589312163181603
+typography_spectrum: 0.8432754408568144
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: null
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+color:
+  brandColors: []
+  brandStrength: 0.6386726233176887
+  lightness: 0.3498692577704787
+  saturation: 0.8952101867180318
+  rhythmicContrast: 0.897389710880816
+purpose: []
