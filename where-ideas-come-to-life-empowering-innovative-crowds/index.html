@@ -1,4 +1,4 @@
-<!DOCTYPE HTML><html class="exporting wf-loading"><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/><title>...where ideas come to life Empowering Innovative Crowds - i-Invested.co.uk</title><link href="../rss.xml" title="i-Invested feed" rel="alternate" type="application/rss+xml"/><meta name="generator" content="The Grid taylor/0.16.25"><meta name="the-grid-solution" content="92ac5e9c-7ddc-4786-aa55-7b7f779f9410"><style href="./css/scale/mini.css" media="(max-width: 19.9376em)" rel="stylesheet">@media (max-width: 15.625em){html{font-size:3.09375em !important}}
+<!DOCTYPE HTML><html class="exporting wf-loading"><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/><title>...where ideas come to life Empowering Innovative Crowds - i-Invested.co.uk</title><link href="../rss.xml" title="i-Invested feed" rel="alternate" type="application/rss+xml"/><meta name="generator" content="The Grid taylor/0.17.3"><meta name="the-grid-solution" content="b8a7c036-dd13-40b0-83b0-45227b417359"><style href="./css/scale/mini.css" media="(max-width: 19.9376em)" rel="stylesheet">@media (max-width: 15.625em){html{font-size:3.09375em !important}}
 @media (min-width: 15.6875em)and (max-width: 15.75em){	html{font-size:3.28125em !important}}
 @media (min-width: 15.8125em)and (max-width: 16.25em){	html{font-size:3.375em !important}}
 @media (min-width: 16.3125em)and (max-width: 16.6875em){html{font-size:3.46875em !important}}
@@ -202,6 +202,14 @@ body {
 }
 .stack {
   z-index: 1;
+  transition: transform 0.3s ease-out;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+}
+.group,
+.aside,
+.decoration {
+  transition: transform 0.3s ease-out;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
 }
 picture {
   display: inline-block;
@@ -250,6 +258,9 @@ a:active {
   transition: color 0.1s ease-in, background-color 0.1s ease-out;
   -webkit-transition: color 0.1s ease-in, background-color 0.1s ease-out;
 }
+a.aside {
+  display: inline-block;
+}
 html.exporting a {
   transition: none;
 }
@@ -259,11 +270,21 @@ html.exporting a {
 .media > a {
   display: inline-block;
 }
+.media iframe {
+  transition: 0.3s opacity ease-in;
+  -webkit-transition: 0.3s opacity ease-in;
+}
 h1 a,
 h2 a,
 h3 a {
   font-weight: inherit;
   letter-spacing: inherit;
+}
+a {
+  -webkit-box-decoration-break: clone;
+  -ms-box-decoration-break: clone;
+  -moz-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 .text-decoration {
   -webkit-box-decoration-break: clone;
@@ -277,36 +298,50 @@ h3 a {
   margin-left: 1.5em;
 }
 .decoration {
-  position: relative;
   pointer-events: none;
+}
+.svg {
+  position: relative;
   background-color: currentColor;
 }
-.decoration > svg {
+.svg > svg {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-.decoration.connector > svg {
+.svg.connector > svg {
   width: 109%;
   height: 109%;
   margin-left: -2%;
 }
-.decoration path,
-.decoration ellipse,
-.decoration rect,
-.decoration polygon,
-.decoration circle {
+.svg path,
+.svg ellipse,
+.svg rect,
+.svg polygon,
+.svg circle {
   fill: currentColor;
 }
-.decoration mpath,
-.decoration line,
-.decoration polyline {
+.svg mpath,
+.svg line,
+.svg polyline {
   stroke: currentColor;
 }
-.svg.decoration {
+.svg {
   background-color: transparent;
+}
+.revealed .play.svg:after {
+  display: block;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -20px;
+  background-color: currentColor;
+  content: "";
 }
 .colors-style-aside-border .publisher,
 .colors-style-aside-border .author {
@@ -1497,7 +1532,7 @@ wbr.w1800{ display: block }
  #u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-desktop-l-one-3 {
 display: none;
 }
-}</style></head><body><div class="layout-system rust mobile" id="page-0d64c80b-6b55-4309-b7f4-4a7f489883ac"><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-mobile-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-mobile-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_medium_headline w_medium_title w_subtitle w_paragraph w_text w_short_headline w_short_title w_short_subtitle w_medium_paragraph w_medium_text w_short_paragraph w_short_text layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-mobile-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-mobile-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-mobile-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-mobile-l-one-3-l-one"></div><style id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-color">body{background-color: rgba(21, 29, 32, 1)}</style></section><article subject="panel" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_center uninverted vertical collapsed full line_padding_aside_inside text_width_full group_h_align_none text_align_center flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_small panel stack heading i first_panel last_panel w_headline w_title w_decoration w_short_headline w_short_title stack heading" itemid="u-page-nav" itemtype="nav" diff_index="2" index="heading" kind="stack" score="1.875" missed="0.125" tag="article" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-nav"><div kind="group" index="heading" class="group heading group heading" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-nav-g-heading"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader vfld-trailer title headline" specificity="0.25" itemprop="title" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-nav-g-heading-t-headline"><a class="text-decoration" href="../index.html" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-nav-g-heading-t-headline-a">i-Invested</a></h1></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_large chapter stack heading i first_chapter w_headline w_title w_decoration w_medium_headline w_medium_title stack heading" itemid="077a46bd-5d79-4203-8e41-70eb202be87b" itemtype="h1" diff_index="2" index="heading" kind="stack" score="2.875" missed="0.125" tag="article" id="u-077a46bd-5d79-4203-8e41-70eb202be87b"><div kind="group" index="heading" class="group heading group heading" id="u-077a46bd-5d79-4203-8e41-70eb202be87b-g-heading"><h1 kind="title" index="headline" class="medium medium_headline medium_title title headline vfld-leader vfld-trailer title headline" specificity="0.25" itemprop="title" id="u-077a46bd-5d79-4203-8e41-70eb202be87b-g-heading-t-headline"><span class="text-decoration" id="u-077a46bd-5d79-4203-8e41-70eb202be87b-g-heading-t-headline-span">...where ideas come to <wbr class="w480 w960"></wbr>life <wbr class="w481 w961 w1799"></wbr>Empowering <wbr class="w480 w960 w1800"></wbr>Innovative Crowds</span></h1></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_headline w_title w_subtitle w_paragraph w_text w_separator w_decoration w_short_headline w_short_title w_short_subtitle w_medium_paragraph w_medium_text stack textual" itemid="321103c8-765b-4d44-80ed-43690e29f7eb" itemtype="text" diff_index="4" index="textual" kind="stack" score="8.75" missed="0.25" tag="article" id="u-321103c8-765b-4d44-80ed-43690e29f7eb"><div kind="group" index="textual" class="group textual group textual" id="u-321103c8-765b-4d44-80ed-43690e29f7eb-g-textual"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader title headline" specificity="0.25" itemprop="title" id="u-321103c8-765b-4d44-80ed-43690e29f7eb-g-textual-t-headline"><span class="text-decoration" id="u-321103c8-765b-4d44-80ed-43690e29f7eb-g-textual-t-headline-span">JOIN THE EVOLUTION&#x2026;</span></h1><h2 kind="title" index="subtitle" class="short short_subtitle short_title title subtitle title subtitle" specificity="0.25" itemprop="subtitle" id="u-321103c8-765b-4d44-80ed-43690e29f7eb-g-textual-t-subtitle"><span class="text-decoration" id="u-321103c8-765b-4d44-80ed-43690e29f7eb-g-textual-t-subtitle-span"><strong> Featured in</strong></span></h2><div kind="text" index="paragraph" class="text-decoration medium medium_paragraph medium_text text paragraph vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-321103c8-765b-4d44-80ed-43690e29f7eb-g-textual-t-paragraph"><p><b>ANIMALS, ART, COMICS, COMMUNITY, CRAFTS, DANCE, <wbr class="w480 w960"></wbr>DESIGN, EDUCATION, <wbr class="w481 w961 w1799"></wbr>ENVIRONMENT, FASHION, FILM, <wbr class="w480 w960 w1800"></wbr>FINANCE, FINTECH, FOOD, GAMES, JOURNALISM, <wbr class="w480 w481 w960 w961 w1799"></wbr>HEALTH, MUSIC, PHOTOGRAPHY, POLITICS, PUBLISHING, <wbr class="w480 w960"></wbr>SMEs, <wbr class="w1800"></wbr>SPORTS, <wbr class="w481 w961 w1799"></wbr>TECHNOLOGY, THEATRE, VIDEO & WEB, <wbr class="w480 w960"></wbr>WRITING.</b></p></div><div kind="decoration" index="separator" class="decoration separator decoration separator" id="u-321103c8-765b-4d44-80ed-43690e29f7eb-g-textual-d-separator"></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_subtitle w_title w_paragraph w_text w_separator w_decoration w_short_subtitle w_short_title w_short_paragraph w_short_text stack textual" itemid="e19951ad-1e9b-4980-aa33-2532c105ff6c" itemtype="h4" diff_index="4" index="textual" kind="stack" score="5.625" missed="0.375" tag="article" id="u-e19951ad-1e9b-4980-aa33-2532c105ff6c"><div kind="group" index="textual" class="group textual group textual" id="u-e19951ad-1e9b-4980-aa33-2532c105ff6c-g-textual"><h2 kind="title" index="subtitle" class="short short_subtitle short_title title subtitle vfld-leader title subtitle" specificity="0.25" itemprop="subtitle" id="u-e19951ad-1e9b-4980-aa33-2532c105ff6c-g-textual-t-subtitle"><span class="text-decoration" id="u-e19951ad-1e9b-4980-aa33-2532c105ff6c-g-textual-t-subtitle-span">Categories We Serve</span></h2><div kind="text" index="paragraph" class="text-decoration short short_paragraph short_text text paragraph vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-e19951ad-1e9b-4980-aa33-2532c105ff6c-g-textual-t-paragraph"><h4><strong> Go viral </strong></h4><h4><strong> <wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>Support your campaign</strong></h4><h4><strong> <wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>Create a new campaign</strong></h4><h4><strong> <wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>Connect for free</strong></h4></div><div kind="decoration" index="separator" class="decoration separator decoration separator" id="u-e19951ad-1e9b-4980-aa33-2532c105ff6c-g-textual-d-separator"></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_subtitle w_title w_paragraph w_text w_separator w_decoration w_short_subtitle w_short_title w_medium_paragraph w_medium_text stack textual" itemid="80a7d3a6-21fc-46fb-920b-a40c3d530eed" itemtype="text" diff_index="4" index="textual" kind="stack" score="5.625" missed="0.375" tag="article" id="u-80a7d3a6-21fc-46fb-920b-a40c3d530eed"><div kind="group" index="textual" class="group textual group textual" id="u-80a7d3a6-21fc-46fb-920b-a40c3d530eed-g-textual"><h2 kind="title" index="subtitle" class="short short_subtitle short_title title subtitle vfld-leader title subtitle" specificity="0.25" itemprop="subtitle" id="u-80a7d3a6-21fc-46fb-920b-a40c3d530eed-g-textual-t-subtitle"><span class="text-decoration" id="u-80a7d3a6-21fc-46fb-920b-a40c3d530eed-g-textual-t-subtitle-span"><strong>How it Works</strong></span></h2><div kind="text" index="paragraph" class="text-decoration medium medium_paragraph medium_text text paragraph vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-80a7d3a6-21fc-46fb-920b-a40c3d530eed-g-textual-t-paragraph"><p><span class="first-letter">O</span>ur open innovation concept allows global businesses to plug <wbr class="w480 w960"></wbr>into our platform and add value <wbr class="w481 w961 w1799"></wbr>to our community by providing <wbr class="w480 w960 w1800"></wbr>choice and access to their services.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>i</span>-Invested is a global platform where individuals, projects, <wbr class="w480 w960"></wbr>startups, entrepreneurs and SMEs <wbr class="w481 w961 w1799"></wbr>can raise capital to fund <wbr class="w480 w960"></wbr>their <wbr class="w1800"></wbr>ideas utilising the crowdfunding concept <wbr class="w480 w481 w960 w961 w1799"></wbr>(Donation/Reward/Peer-2-Peer Lending/Equity).</p></div><div kind="decoration" index="separator" class="decoration separator decoration separator" id="u-80a7d3a6-21fc-46fb-920b-a40c3d530eed-g-textual-d-separator"></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_subtitle w_title w_paragraph w_text w_separator w_decoration w_short_subtitle w_short_title w_short_paragraph w_short_text stack textual" itemid="a4bebfba-3468-453f-9ea5-cdae5a09aab5" itemtype="text" diff_index="4" index="textual" kind="stack" score="5.625" missed="0.375" tag="article" id="u-a4bebfba-3468-453f-9ea5-cdae5a09aab5"><div kind="group" index="textual" class="group textual group textual" id="u-a4bebfba-3468-453f-9ea5-cdae5a09aab5-g-textual"><h2 kind="title" index="subtitle" class="short short_subtitle short_title title subtitle vfld-leader title subtitle" specificity="0.25" itemprop="subtitle" id="u-a4bebfba-3468-453f-9ea5-cdae5a09aab5-g-textual-t-subtitle"><span class="text-decoration" id="u-a4bebfba-3468-453f-9ea5-cdae5a09aab5-g-textual-t-subtitle-span"><b>What We Do</b></span></h2><div kind="text" index="paragraph" class="text-decoration short short_paragraph short_text text paragraph vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-a4bebfba-3468-453f-9ea5-cdae5a09aab5-g-textual-t-paragraph"><p><span class="first-letter">C</span>onnecting the dots between ideas, individuals, institutions <wbr class="w480 w960"></wbr>and investors is our passion and <wbr class="w481 w961 w1799"></wbr>long term <wbr class="w480 w960 w1800"></wbr>mission.Revolutionising, democratising and socialising the <wbr class="w480 w960"></wbr>future of finance one idea <wbr class="w481 w961 w1799"></wbr>at time.</p></div><div kind="decoration" index="separator" class="decoration separator decoration separator" id="u-a4bebfba-3468-453f-9ea5-cdae5a09aab5-g-textual-d-separator"></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_subtitle w_title w_paragraph w_text w_separator w_decoration w_short_subtitle w_short_title w_short_paragraph w_short_text stack textual" itemid="374d18be-f5d4-47b0-8c30-c7d05d61b0b5" itemtype="text" diff_index="4" index="textual" kind="stack" score="5.625" missed="0.375" tag="article" id="u-374d18be-f5d4-47b0-8c30-c7d05d61b0b5"><div kind="group" index="textual" class="group textual group textual" id="u-374d18be-f5d4-47b0-8c30-c7d05d61b0b5-g-textual"><h2 kind="title" index="subtitle" class="short short_subtitle short_title title subtitle vfld-leader title subtitle" specificity="0.25" itemprop="subtitle" id="u-374d18be-f5d4-47b0-8c30-c7d05d61b0b5-g-textual-t-subtitle"><span class="text-decoration" id="u-374d18be-f5d4-47b0-8c30-c7d05d61b0b5-g-textual-t-subtitle-span"><strong>Mission</strong></span></h2><div kind="text" index="paragraph" class="text-decoration short short_paragraph short_text text paragraph vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-374d18be-f5d4-47b0-8c30-c7d05d61b0b5-g-textual-t-paragraph"><p><span class="first-letter">O</span>ur vision is to bring ideas to life by empowering innovative <wbr class="w480 w960"></wbr>crowds.</p></div><div kind="decoration" index="separator" class="decoration separator decoration separator" id="u-374d18be-f5d4-47b0-8c30-c7d05d61b0b5-g-textual-d-separator"></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_subtitle w_title w_paragraph w_text w_separator w_decoration w_short_subtitle w_short_title w_short_paragraph w_short_text stack textual" itemid="082f8286-6cfc-41c9-bafb-3c6ff4216895" itemtype="text" diff_index="4" index="textual" kind="stack" score="5.625" missed="0.375" tag="article" id="u-082f8286-6cfc-41c9-bafb-3c6ff4216895"><div kind="group" index="textual" class="group textual group textual" id="u-082f8286-6cfc-41c9-bafb-3c6ff4216895-g-textual"><h2 kind="title" index="subtitle" class="short short_subtitle short_title title subtitle vfld-leader title subtitle" specificity="0.25" itemprop="subtitle" id="u-082f8286-6cfc-41c9-bafb-3c6ff4216895-g-textual-t-subtitle"><span class="text-decoration" id="u-082f8286-6cfc-41c9-bafb-3c6ff4216895-g-textual-t-subtitle-span"><strong>Vision</strong></span></h2><div kind="text" index="paragraph" class="text-decoration short short_paragraph short_text text paragraph vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-082f8286-6cfc-41c9-bafb-3c6ff4216895-g-textual-t-paragraph"><p><span class="first-letter">G</span>lobal open source ecosystem&#x2026;where ideas come to life.</p></div><div kind="decoration" index="separator" class="decoration separator decoration separator" id="u-082f8286-6cfc-41c9-bafb-3c6ff4216895-g-textual-d-separator"></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i last_chapter w_subtitle w_title w_paragraph w_text w_separator w_decoration w_short_subtitle w_short_title w_medium_paragraph w_medium_text stack textual" itemid="2f7a8a0c-d295-4b2e-8ed8-ad6941d212c3" itemtype="text" diff_index="4" index="textual" kind="stack" score="5.625" missed="0.375" tag="article" id="u-2f7a8a0c-d295-4b2e-8ed8-ad6941d212c3"><div kind="group" index="textual" class="group textual group textual" id="u-2f7a8a0c-d295-4b2e-8ed8-ad6941d212c3-g-textual"><h2 kind="title" index="subtitle" class="short short_subtitle short_title title subtitle vfld-leader title subtitle" specificity="0.25" itemprop="subtitle" id="u-2f7a8a0c-d295-4b2e-8ed8-ad6941d212c3-g-textual-t-subtitle"><span class="text-decoration" id="u-2f7a8a0c-d295-4b2e-8ed8-ad6941d212c3-g-textual-t-subtitle-span"><b>i-Invested</b></span></h2><div kind="text" index="paragraph" class="text-decoration medium medium_paragraph medium_text text paragraph vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-2f7a8a0c-d295-4b2e-8ed8-ad6941d212c3-g-textual-t-paragraph"><p><span class="first-letter">&#xA9;</span> i-Invested LTD 2015. All rights reserved. i-Invested LTD a <wbr class="w480 w960"></wbr>limited company registered in <wbr class="w481 w961 w1799"></wbr>England and Wales (No. <wbr class="w480 w960 w1800"></wbr>09124923). Investing in start-ups and early stage businesses <wbr class="w480 w960"></wbr>involves <wbr class="w481 w961 w1799"></wbr>high risks and various challenges, including illiquidity, <wbr class="w480 w960 w1800"></wbr>lack of dividends, loss of investment and <wbr class="w481 w961 w1799"></wbr>dilution. This type of <wbr class="w480 w960"></wbr>investments should be part of a diversified portfolio.</p></div><div kind="decoration" index="separator" class="decoration separator decoration separator" id="u-2f7a8a0c-d295-4b2e-8ed8-ad6941d212c3-g-textual-d-separator"></div></div></article><article subject="panel" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_center uninverted vertical collapsed full line_padding_aside_inside text_width_full group_h_align_none text_align_center flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_small panel stack heading i first_panel last_panel w_headline w_title w_decoration w_short_headline w_short_title stack heading" itemid="u-page-alternate" itemtype="alternate" diff_index="2" index="heading" kind="stack" score="1.875" missed="0.125" tag="article" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-alternate"><div kind="group" index="heading" class="group heading group heading" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-alternate-g-heading"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader vfld-trailer title headline" specificity="0.25" itemprop="title" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-alternate-g-heading-t-headline"><a class="text-decoration" href="../rss.xml" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-alternate-g-heading-t-headline-a">i-Invested feed</a></h1></div></article><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-desktop-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-desktop-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_medium_headline w_medium_title w_subtitle w_paragraph w_text w_short_headline w_short_title w_short_subtitle w_medium_paragraph w_medium_text w_short_paragraph w_short_text layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-desktop-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-desktop-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-desktop-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-desktop-l-one-3-l-one"></div><style id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-color">body{background-color: rgba(21, 29, 32, 1)}</style></section><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-cinema-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-cinema-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_medium_headline w_medium_title w_subtitle w_paragraph w_text w_short_headline w_short_title w_short_subtitle w_medium_paragraph w_medium_text w_short_paragraph w_short_text layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-cinema-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-cinema-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-cinema-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-cinema-l-one-3-l-one"></div><style id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-color">body{background-color: rgba(21, 29, 32, 1)}</style></section></div><script href="./client.js">(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+}</style></head><body><div class="layout-system rust mobile" id="page-0d64c80b-6b55-4309-b7f4-4a7f489883ac"><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-mobile-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-mobile-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_medium_headline w_medium_title w_subtitle w_paragraph w_text w_short_headline w_short_title w_short_subtitle w_medium_paragraph w_medium_text w_short_paragraph w_short_text layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-mobile-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-mobile-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-mobile-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-mobile-l-one-3-l-one"></div><style id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-color">body{background-color: rgba(21, 29, 32, 1)}</style></section><article subject="panel" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_center uninverted vertical collapsed full line_padding_aside_inside text_width_full group_h_align_none text_align_center flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_small panel stack heading i first_panel last_panel w_headline w_title w_decoration w_short_headline w_short_title stack heading" itemid="u-page-nav" itemtype="nav" diff_index="2" index="heading" kind="stack" score="1.875" missed="0.125" tag="article" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-nav"><div kind="group" index="heading" class="group heading group heading" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-nav-g-heading"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader vfld-trailer title headline" specificity="0.25" itemprop="title" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-nav-g-heading-t-headline"><a class="text-decoration" href="../index.html" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-nav-g-heading-t-headline-a">i-Invested</a></h1></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_large chapter stack heading i first_chapter w_headline w_title w_decoration w_medium_headline w_medium_title stack heading" itemid="077a46bd-5d79-4203-8e41-70eb202be87b" itemtype="h1" diff_index="2" index="heading" kind="stack" score="0.875" missed="0.125" tag="article" id="u-077a46bd-5d79-4203-8e41-70eb202be87b"><div kind="group" index="heading" class="group heading group heading" id="u-077a46bd-5d79-4203-8e41-70eb202be87b-g-heading"><h1 kind="title" index="headline" class="medium medium_headline medium_title title headline vfld-leader vfld-trailer title headline" specificity="0.25" itemprop="title" id="u-077a46bd-5d79-4203-8e41-70eb202be87b-g-heading-t-headline"><span class="text-decoration" id="u-077a46bd-5d79-4203-8e41-70eb202be87b-g-heading-t-headline-span">...where ideas come to <wbr class="w480 w960"></wbr>life <wbr class="w481 w961 w1799"></wbr>Empowering <wbr class="w480 w960 w1800"></wbr>Innovative Crowds</span></h1></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_headline w_title w_subtitle w_paragraph w_text w_separator w_decoration w_short_headline w_short_title w_short_subtitle w_medium_paragraph w_medium_text stack textual" itemid="321103c8-765b-4d44-80ed-43690e29f7eb" itemtype="text" diff_index="4" index="textual" kind="stack" score="2.75" missed="0.25" tag="article" id="u-321103c8-765b-4d44-80ed-43690e29f7eb"><div kind="group" index="textual" class="group textual group textual" id="u-321103c8-765b-4d44-80ed-43690e29f7eb-g-textual"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader title headline" specificity="0.25" itemprop="title" id="u-321103c8-765b-4d44-80ed-43690e29f7eb-g-textual-t-headline"><span class="text-decoration" id="u-321103c8-765b-4d44-80ed-43690e29f7eb-g-textual-t-headline-span">JOIN THE EVOLUTION&#x2026;</span></h1><h2 kind="title" index="subtitle" class="short short_subtitle short_title title subtitle title subtitle" specificity="0.25" itemprop="subtitle" id="u-321103c8-765b-4d44-80ed-43690e29f7eb-g-textual-t-subtitle"><span class="text-decoration" id="u-321103c8-765b-4d44-80ed-43690e29f7eb-g-textual-t-subtitle-span"><strong> Featured in</strong></span></h2><div kind="text" index="paragraph" class="text-decoration medium medium_paragraph medium_text text paragraph vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-321103c8-765b-4d44-80ed-43690e29f7eb-g-textual-t-paragraph"><p><b>ANIMALS, ART, COMICS, COMMUNITY, CRAFTS, DANCE, <wbr class="w480 w960"></wbr>DESIGN, EDUCATION, <wbr class="w481 w961 w1799"></wbr>ENVIRONMENT, FASHION, FILM, <wbr class="w480 w960 w1800"></wbr>FINANCE, FINTECH, FOOD, GAMES, JOURNALISM, <wbr class="w480 w481 w960 w961 w1799"></wbr>HEALTH, MUSIC, PHOTOGRAPHY, POLITICS, PUBLISHING, <wbr class="w480 w960"></wbr>SMEs, <wbr class="w1800"></wbr>SPORTS, <wbr class="w481 w961 w1799"></wbr>TECHNOLOGY, THEATRE, VIDEO & WEB, <wbr class="w480 w960"></wbr>WRITING.</b></p></div><div kind="decoration" index="separator" class="decoration separator decoration separator" id="u-321103c8-765b-4d44-80ed-43690e29f7eb-g-textual-d-separator"></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_subtitle w_title w_paragraph w_text w_separator w_decoration w_short_subtitle w_short_title w_short_paragraph w_short_text stack textual" itemid="e19951ad-1e9b-4980-aa33-2532c105ff6c" itemtype="h4" diff_index="4" index="textual" kind="stack" score="1.625" missed="0.375" tag="article" id="u-e19951ad-1e9b-4980-aa33-2532c105ff6c"><div kind="group" index="textual" class="group textual group textual" id="u-e19951ad-1e9b-4980-aa33-2532c105ff6c-g-textual"><h2 kind="title" index="subtitle" class="short short_subtitle short_title title subtitle vfld-leader title subtitle" specificity="0.25" itemprop="subtitle" id="u-e19951ad-1e9b-4980-aa33-2532c105ff6c-g-textual-t-subtitle"><span class="text-decoration" id="u-e19951ad-1e9b-4980-aa33-2532c105ff6c-g-textual-t-subtitle-span">Categories We Serve</span></h2><div kind="text" index="paragraph" class="text-decoration short short_paragraph short_text text paragraph vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-e19951ad-1e9b-4980-aa33-2532c105ff6c-g-textual-t-paragraph"><h4><strong> Go viral </strong></h4><h4><strong> <wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>Support your campaign</strong></h4><h4><strong> <wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>Create a new campaign</strong></h4><h4><strong> <wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>Connect for free</strong></h4></div><div kind="decoration" index="separator" class="decoration separator decoration separator" id="u-e19951ad-1e9b-4980-aa33-2532c105ff6c-g-textual-d-separator"></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_subtitle w_title w_paragraph w_text w_separator w_decoration w_short_subtitle w_short_title w_medium_paragraph w_medium_text stack textual" itemid="80a7d3a6-21fc-46fb-920b-a40c3d530eed" itemtype="text" diff_index="4" index="textual" kind="stack" score="1.625" missed="0.375" tag="article" id="u-80a7d3a6-21fc-46fb-920b-a40c3d530eed"><div kind="group" index="textual" class="group textual group textual" id="u-80a7d3a6-21fc-46fb-920b-a40c3d530eed-g-textual"><h2 kind="title" index="subtitle" class="short short_subtitle short_title title subtitle vfld-leader title subtitle" specificity="0.25" itemprop="subtitle" id="u-80a7d3a6-21fc-46fb-920b-a40c3d530eed-g-textual-t-subtitle"><span class="text-decoration" id="u-80a7d3a6-21fc-46fb-920b-a40c3d530eed-g-textual-t-subtitle-span"><strong>How it Works</strong></span></h2><div kind="text" index="paragraph" class="text-decoration medium medium_paragraph medium_text text paragraph vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-80a7d3a6-21fc-46fb-920b-a40c3d530eed-g-textual-t-paragraph"><p><span class="first-letter">O</span>ur open innovation concept allows global businesses to plug <wbr class="w480 w960"></wbr>into our platform and add value <wbr class="w481 w961 w1799"></wbr>to our community by providing <wbr class="w480 w960 w1800"></wbr>choice and access to their services.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>i</span>-Invested is a global platform where individuals, projects, <wbr class="w480 w960"></wbr>startups, entrepreneurs and SMEs <wbr class="w481 w961 w1799"></wbr>can raise capital to fund <wbr class="w480 w960"></wbr>their <wbr class="w1800"></wbr>ideas utilising the crowdfunding concept <wbr class="w480 w481 w960 w961 w1799"></wbr>(Donation/Reward/Peer-2-Peer Lending/Equity).</p></div><div kind="decoration" index="separator" class="decoration separator decoration separator" id="u-80a7d3a6-21fc-46fb-920b-a40c3d530eed-g-textual-d-separator"></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_subtitle w_title w_paragraph w_text w_separator w_decoration w_short_subtitle w_short_title w_short_paragraph w_short_text stack textual" itemid="a4bebfba-3468-453f-9ea5-cdae5a09aab5" itemtype="text" diff_index="4" index="textual" kind="stack" score="1.625" missed="0.375" tag="article" id="u-a4bebfba-3468-453f-9ea5-cdae5a09aab5"><div kind="group" index="textual" class="group textual group textual" id="u-a4bebfba-3468-453f-9ea5-cdae5a09aab5-g-textual"><h2 kind="title" index="subtitle" class="short short_subtitle short_title title subtitle vfld-leader title subtitle" specificity="0.25" itemprop="subtitle" id="u-a4bebfba-3468-453f-9ea5-cdae5a09aab5-g-textual-t-subtitle"><span class="text-decoration" id="u-a4bebfba-3468-453f-9ea5-cdae5a09aab5-g-textual-t-subtitle-span"><b>What We Do</b></span></h2><div kind="text" index="paragraph" class="text-decoration short short_paragraph short_text text paragraph vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-a4bebfba-3468-453f-9ea5-cdae5a09aab5-g-textual-t-paragraph"><p><span class="first-letter">C</span>onnecting the dots between ideas, individuals, institutions <wbr class="w480 w960"></wbr>and investors is our passion and <wbr class="w481 w961 w1799"></wbr>long term <wbr class="w480 w960 w1800"></wbr>mission.Revolutionising, democratising and socialising the <wbr class="w480 w960"></wbr>future of finance one idea <wbr class="w481 w961 w1799"></wbr>at time.</p></div><div kind="decoration" index="separator" class="decoration separator decoration separator" id="u-a4bebfba-3468-453f-9ea5-cdae5a09aab5-g-textual-d-separator"></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_subtitle w_title w_paragraph w_text w_separator w_decoration w_short_subtitle w_short_title w_short_paragraph w_short_text stack textual" itemid="374d18be-f5d4-47b0-8c30-c7d05d61b0b5" itemtype="text" diff_index="4" index="textual" kind="stack" score="1.625" missed="0.375" tag="article" id="u-374d18be-f5d4-47b0-8c30-c7d05d61b0b5"><div kind="group" index="textual" class="group textual group textual" id="u-374d18be-f5d4-47b0-8c30-c7d05d61b0b5-g-textual"><h2 kind="title" index="subtitle" class="short short_subtitle short_title title subtitle vfld-leader title subtitle" specificity="0.25" itemprop="subtitle" id="u-374d18be-f5d4-47b0-8c30-c7d05d61b0b5-g-textual-t-subtitle"><span class="text-decoration" id="u-374d18be-f5d4-47b0-8c30-c7d05d61b0b5-g-textual-t-subtitle-span"><strong>Mission</strong></span></h2><div kind="text" index="paragraph" class="text-decoration short short_paragraph short_text text paragraph vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-374d18be-f5d4-47b0-8c30-c7d05d61b0b5-g-textual-t-paragraph"><p><span class="first-letter">O</span>ur vision is to bring ideas to life by empowering innovative <wbr class="w480 w960"></wbr>crowds.</p></div><div kind="decoration" index="separator" class="decoration separator decoration separator" id="u-374d18be-f5d4-47b0-8c30-c7d05d61b0b5-g-textual-d-separator"></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i w_subtitle w_title w_paragraph w_text w_separator w_decoration w_short_subtitle w_short_title w_short_paragraph w_short_text stack textual" itemid="082f8286-6cfc-41c9-bafb-3c6ff4216895" itemtype="text" diff_index="4" index="textual" kind="stack" score="1.625" missed="0.375" tag="article" id="u-082f8286-6cfc-41c9-bafb-3c6ff4216895"><div kind="group" index="textual" class="group textual group textual" id="u-082f8286-6cfc-41c9-bafb-3c6ff4216895-g-textual"><h2 kind="title" index="subtitle" class="short short_subtitle short_title title subtitle vfld-leader title subtitle" specificity="0.25" itemprop="subtitle" id="u-082f8286-6cfc-41c9-bafb-3c6ff4216895-g-textual-t-subtitle"><span class="text-decoration" id="u-082f8286-6cfc-41c9-bafb-3c6ff4216895-g-textual-t-subtitle-span"><strong>Vision</strong></span></h2><div kind="text" index="paragraph" class="text-decoration short short_paragraph short_text text paragraph vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-082f8286-6cfc-41c9-bafb-3c6ff4216895-g-textual-t-paragraph"><p><span class="first-letter">G</span>lobal open source ecosystem&#x2026;where ideas come to life.</p></div><div kind="decoration" index="separator" class="decoration separator decoration separator" id="u-082f8286-6cfc-41c9-bafb-3c6ff4216895-g-textual-d-separator"></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack textual i last_chapter w_subtitle w_title w_paragraph w_text w_separator w_decoration w_short_subtitle w_short_title w_medium_paragraph w_medium_text stack textual" itemid="2f7a8a0c-d295-4b2e-8ed8-ad6941d212c3" itemtype="text" diff_index="4" index="textual" kind="stack" score="1.625" missed="0.375" tag="article" id="u-2f7a8a0c-d295-4b2e-8ed8-ad6941d212c3"><div kind="group" index="textual" class="group textual group textual" id="u-2f7a8a0c-d295-4b2e-8ed8-ad6941d212c3-g-textual"><h2 kind="title" index="subtitle" class="short short_subtitle short_title title subtitle vfld-leader title subtitle" specificity="0.25" itemprop="subtitle" id="u-2f7a8a0c-d295-4b2e-8ed8-ad6941d212c3-g-textual-t-subtitle"><span class="text-decoration" id="u-2f7a8a0c-d295-4b2e-8ed8-ad6941d212c3-g-textual-t-subtitle-span"><b>i-Invested</b></span></h2><div kind="text" index="paragraph" class="text-decoration medium medium_paragraph medium_text text paragraph vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-2f7a8a0c-d295-4b2e-8ed8-ad6941d212c3-g-textual-t-paragraph"><p><span class="first-letter">&#xA9;</span> i-Invested LTD 2015. All rights reserved. i-Invested LTD a <wbr class="w480 w960"></wbr>limited company registered in <wbr class="w481 w961 w1799"></wbr>England and Wales (No. <wbr class="w480 w960 w1800"></wbr>09124923). Investing in start-ups and early stage businesses <wbr class="w480 w960"></wbr>involves <wbr class="w481 w961 w1799"></wbr>high risks and various challenges, including illiquidity, <wbr class="w480 w960 w1800"></wbr>lack of dividends, loss of investment and <wbr class="w481 w961 w1799"></wbr>dilution. This type of <wbr class="w480 w960"></wbr>investments should be part of a diversified portfolio.</p></div><div kind="decoration" index="separator" class="decoration separator decoration separator" id="u-2f7a8a0c-d295-4b2e-8ed8-ad6941d212c3-g-textual-d-separator"></div></div></article><article subject="panel" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_center uninverted vertical collapsed full line_padding_aside_inside text_width_full group_h_align_none text_align_center flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_small panel stack heading i first_panel last_panel w_headline w_title w_decoration w_short_headline w_short_title stack heading" itemid="u-page-alternate" itemtype="alternate" diff_index="2" index="heading" kind="stack" score="1.875" missed="0.125" tag="article" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-alternate"><div kind="group" index="heading" class="group heading group heading" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-alternate-g-heading"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader vfld-trailer title headline" specificity="0.25" itemprop="title" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-alternate-g-heading-t-headline"><a class="text-decoration" href="../rss.xml" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-alternate-g-heading-t-headline-a">i-Invested feed</a></h1></div></article><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-desktop-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-desktop-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_medium_headline w_medium_title w_subtitle w_paragraph w_text w_short_headline w_short_title w_short_subtitle w_medium_paragraph w_medium_text w_short_paragraph w_short_text layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-desktop-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-desktop-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-desktop-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-desktop-l-one-3-l-one"></div><style id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-color">body{background-color: rgba(21, 29, 32, 1)}</style></section><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-cinema-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-cinema-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_medium_headline w_medium_title w_subtitle w_paragraph w_text w_short_headline w_short_title w_short_subtitle w_medium_paragraph w_medium_text w_short_paragraph w_short_text layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-cinema-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-cinema-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-cinema-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-cinema-l-one-3-l-one"></div><style id="u-0d64c80b-6b55-4309-b7f4-4a7f489883ac-color">body{background-color: rgba(21, 29, 32, 1)}</style></section></div><script href="./client.js">(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 /*! Hammer.JS - v1.1.3 - 2014-05-20
  * http://eightmedia.github.io/hammer.js
  *
@@ -2024,9 +2059,11 @@ global.Hamburger = require('./hamburger');
 
 global.Highlighter = require('./highlighter');
 
+global.Player = require('./player');
+
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./animator":3,"./hamburger":4,"./highlighter":5,"./paginator":7,"hammerjs/hammer.min.js":1,"picturefill/dist/picturefill.min.js":2}],7:[function(require,module,exports){
+},{"./animator":3,"./hamburger":4,"./highlighter":5,"./paginator":7,"./player":8,"hammerjs/hammer.min.js":1,"picturefill/dist/picturefill.min.js":2}],7:[function(require,module,exports){
 var appendPage, mainpage, page, ref, ref1, urls;
 
 page = require('./reflow');
@@ -2127,7 +2164,192 @@ module.exports = function() {
 };
 
 
-},{"./reflow":8}],8:[function(require,module,exports){
+},{"./reflow":9}],8:[function(require,module,exports){
+var Player, Youtube, iframe, revealed, rgb2hex;
+
+iframe = null;
+
+Youtube = null;
+
+Player = function(id, src, width, height, color, bg) {
+  if (src.indexOf('youtube') > -1) {
+    src += '&color=white&theme=light&modestbranding=1';
+  }
+  src = src.replace('COLOR', color).replace('BG', bg);
+  if (location.protocol !== 'https:') {
+    src = src.replace('https:', 'http:');
+  }
+  iframe = document.createElement('iframe');
+  iframe.id = id;
+  iframe.setAttribute('allowfullscreen', '');
+  iframe.src = src;
+  iframe.width = width;
+  iframe.height = height;
+  iframe.style.width = '100%';
+  iframe.style.height = '100%';
+  iframe.style.left = 0;
+  iframe.style.right = 0;
+  iframe.style.position = 'absolute';
+  iframe.style.opacity = 0.2;
+  iframe.onload = function() {
+    return iframe.style.opacity = 1;
+  };
+  return iframe;
+};
+
+revealed = null;
+
+Player.reveal = function(iframe) {
+  var diff, i, left, len, parent, play, ref, ref1, sibling, target, top, translateX, translateY;
+  while (target = (target || iframe).parentNode) {
+    if ((ref = target.classList) != null ? ref.contains('media') : void 0) {
+      if (target.parentNode.classList.contains('group')) {
+        parent = target.parentNode;
+      } else {
+        parent = target;
+      }
+      revealed = iframe;
+      play = parent.getElementsByClassName('play')[0];
+      left = target.offsetWidth - play.offsetLeft - play.offsetWidth;
+      top = -play.offsetTop;
+      play.style.webkitTransformOrigin = 'top right';
+      play.style.webkitTransform = 'translateX(' + left + 'px) translateY(' + top + 'px) scale(0.5)';
+      target.classList.add('revealed');
+      ref1 = parent.parentNode.childNodes;
+      for (i = 0, len = ref1.length; i < len; i++) {
+        sibling = ref1[i];
+        if (sibling.nodeType === 1 && sibling !== parent) {
+          translateX = translateY = null;
+          if ((diff = sibling.offsetLeft + sibling.offsetWidth - parent.offsetLeft) > 2 && parent.offsetLeft >= sibling.offsetLeft) {
+            translateX = -diff;
+          }
+          if ((diff = target.offsetLeft + target.offsetWidth - sibling.offsetLeft) > 2 && parent.offsetLeft <= sibling.offsetLeft) {
+            if (!translateX || Math.abs(diff) < Math.abs(translateX)) {
+              translateX = diff;
+            }
+          }
+          if ((diff = sibling.offsetTop + sibling.offsetHeight - parent.offsetTop) > 2 && parent.offsetTop >= sibling.offsetTop) {
+            translateY = -diff;
+          }
+          if ((diff = target.offsetTop + target.offsetHeight - sibling.offsetTop) > 2 && parent.offsetTop <= sibling.offsetTop) {
+            if (!translateY || Math.abs(diff) < Math.abs(translateY)) {
+              translateY = diff;
+            }
+          }
+          if (Math.abs(translateX) > Math.abs(translateY)) {
+            sibling.style.webkitTransform = 'translateY(' + translateY + 'px)';
+          } else {
+            sibling.style.webkitTransform = 'translateX(' + translateX + 'px)';
+          }
+          console.log(translateX, translateY, sibling);
+        }
+      }
+    }
+  }
+};
+
+Player.hide = function(iframe) {
+  var i, len, parent, play, ref, ref1, sibling;
+  while (parent = (parent || iframe).parentNode) {
+    if ((ref = parent.classList) != null ? ref.contains('revealed') : void 0) {
+      parent.classList.remove('revealed');
+      if (parent.parentNode.classList.contains('group')) {
+        parent = parent.parentNode;
+      }
+      play = parent.getElementsByClassName('play')[0];
+      play.style.webkitTransform = '';
+      ref1 = parent.parentNode.childNodes;
+      for (i = 0, len = ref1.length; i < len; i++) {
+        sibling = ref1[i];
+        sibling.style.webkitTransform = '';
+      }
+    }
+  }
+  return revealed = null;
+};
+
+window.addEventListener('resize', function() {
+  return setTimeout(function() {
+    return requestAnimationFrame(function() {
+      if (revealed) {
+        if (revealed.offsetWidth) {
+          return Player.reveal(revealed);
+        } else {
+          return Player.stop(revealed);
+        }
+      }
+    });
+  }, 10);
+});
+
+Player.stop = function(iframe) {
+  var old;
+  old = iframe;
+  iframe.style.opacity = 0;
+  setTimeout(function() {
+    var ref;
+    return (ref = old.parentNode) != null ? ref.removeChild(old) : void 0;
+  }, 300);
+  Player.hide(iframe);
+  return iframe = null;
+};
+
+document.addEventListener('click', function(e) {
+  var bg, color, header, parent, play, ref, ref1, results, styles, target;
+  target = e.target;
+  results = [];
+  while (target) {
+    if ((ref = target.classList) != null ? ref.contains('media') : void 0) {
+      if (play = target.getElementsByClassName('play')[0]) {
+        if ((iframe != null ? iframe.parentNode : void 0) === target) {
+          Player.stop(iframe);
+        } else {
+          if (iframe) {
+            Player.stop(iframe);
+          }
+          color = bg = null;
+          header = (ref1 = target.parentNode.parentNode.getElementsByClassName('title')[0]) != null ? ref1.firstChild : void 0;
+          parent = header || play;
+          while (parent) {
+            if (parent.nodeType === 1) {
+              styles = window.getComputedStyle(parent);
+              if (styles.color.indexOf('rgba') === -1 || !styles.color.match(/,\s*0\)/)) {
+                if (color == null) {
+                  color = styles.color;
+                }
+              }
+              if (styles['background-color'].indexOf('rgba') === -1 || !styles['background-color'].match(/,\s*0\)/)) {
+                if (bg == null) {
+                  bg = styles['background-color'];
+                }
+              }
+            }
+            parent = parent.parentNode;
+          }
+          iframe = Player(play.id + '-player', play.getAttribute('data-src'), play.getAttribute('data-width'), play.getAttribute('data-height'), rgb2hex(color), rgb2hex(bg));
+          target.appendChild(iframe);
+          Player.reveal(iframe);
+        }
+        e.preventDefault();
+        break;
+      }
+    }
+    results.push(target = target.parentNode);
+  }
+  return results;
+});
+
+rgb2hex = function(rgb) {
+  rgb = rgb.match(/^rgba?[\s+]?\([\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?/i);
+  if (rgb && rgb.length === 4) {
+    return ("0" + parseInt(rgb[1], 10).toString(16)).slice(-2) + ("0" + parseInt(rgb[2], 10).toString(16)).slice(-2) + ("0" + parseInt(rgb[3], 10).toString(16)).slice(-2);
+  }
+};
+
+window.exports = window.Player = Player;
+
+
+},{}],9:[function(require,module,exports){
 module.exports = {
   reflow: function(container) {
     var counter, heights, hidden, hole, holed, holes, i, id, ids, index, j, k, l, last, layout, layouts, len, len1, len2, len3, m, mutations, name, node, ref, ref1, ref2, stack, stacks;
@@ -2392,7 +2614,7 @@ module.exports = function(callback) {
   } else {
     protocol = '';
   }
-  url = protocol + "//cdn.thegrid.io/gss/gss-document/1.2.4/gss.document.parser.js";
+  url = protocol + "//cdn.thegrid.io/gss/gss-document/1.2.8/gss.document.parser.js";
   if (location.toString().indexOf('//localhost:8080') > -1) {
     return module.exports.load(protocol + "//localhost:8080/node_modules/gss-document/dist/gss.document.parser.js", callback, function() {
       return module.exports.load(url, callback);
