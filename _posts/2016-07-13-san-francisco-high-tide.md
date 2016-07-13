@@ -1,14 +1,7 @@
 ---
-author:
-  - name: Blue Eden
-    url: 'https://www.youtube.com/user/BlueEdenHD'
-    avatar: {}
-related: []
-publisher:
-  url: 'https://www.youtube.com/'
-  name: YouTube
-  favicon: 'https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico'
-  domain: youtu.be
+datePublished: '2016-07-13T16:10:57.753Z'
+sourcePath: _posts/2016-07-13-san-francisco-high-tide.md
+isBasedOnUrl: 'https://youtu.be/kvJxX7fk0gI'
 keywords:
   - duration
   - views
@@ -20,13 +13,13 @@ keywords:
   - lapse
   - timelapse
   - california
-description: >-
-  Born of sea and fog, San Francisco fills with charm when the tides come in.
-  Scenes include Golden Gate Bridge, Bay Bridge, Twin Peaks, Cliffhouse,
-  Mission, Fisherman's Wharf, Palace of Fine Arts, Six Sisters, Union Square,
-  Baker Beach, Treasure Island, Market St, Embarcadero, and Land's End. Music by
-  Stephen Anderson.
-inLanguage: en
+related: []
+author:
+  - name: ''
+    url: 'https://www.youtube.com/user/BlueEdenHD'
+    avatar: {}
+dateModified: '2016-07-13T16:10:48.907Z'
+title: San Francisco "High Tide"
 app_links:
   - url: 'vnd.youtube://www.youtube.com/watch?v=kvJxX7fk0gI&feature=applinks'
     type: ios
@@ -64,17 +57,24 @@ app_links:
     package: '544007664'
     namespace: google
     type: ios
-isBasedOnUrl: 'https://youtu.be/kvJxX7fk0gI'
-title: San Francisco "High Tide"
-datePublished: '2016-07-13T16:07:37.989Z'
-dateModified: '2016-07-13T16:07:16.973Z'
+publisher:
+  url: 'https://www.youtube.com/'
+  name: YouTube
+  favicon: 'https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico'
+  domain: youtu.be
+description: >-
+  Born of sea and fog, San Francisco fills with charm when the tides come in.
+  Scenes include Golden Gate Bridge, Bay Bridge, Twin Peaks, Cliffhouse,
+  Mission, Fisherman's Wharf, Palace of Fine Arts, Six Sisters, Union Square,
+  Baker Beach, Treasure Island, Market St, Embarcadero, and Land's End. Music by
+  Stephen Anderson.
+inLanguage: en
 starred: false
-sourcePath: _posts/2016-07-13-san-francisco-high-tide.md
 inFeed: true
 hasPage: false
 inNav: false
-_type: VideoObject
 _context: 'http://schema.org'
+_type: VideoObject
 
 ---
 <iframe src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FkvJxX7fk0gI%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DkvJxX7fk0gI&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FkvJxX7fk0gI%2Fhqdefault.jpg&amp;key=b7d04c9b404c499eba89ee7072e1c4f7&amp;type=text%2Fhtml&amp;schema=youtube" width="854" height="480" scrolling="no" frameborder="0" allowfullscreen="" style=""></iframe>
