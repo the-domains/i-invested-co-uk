@@ -1,11 +1,11 @@
 ---
-description: Global open source ecosystem…where ideas come to life.
-dateModified: '2016-07-16T11:11:23.956Z'
-datePublished: '2016-07-16T11:12:24.846Z'
+description: Our vision is to bring ideas to life by empowering innovative crowds.
+dateModified: '2016-07-16T11:19:12.922Z'
+datePublished: '2016-07-16T11:20:42.918Z'
 title: i-Invested
 author: []
-starred: false
 sourcePath: _posts/2016-07-16-i-invested.md
+starred: false
 inFeed: true
 hasPage: false
 inNav: false
@@ -14,7 +14,7 @@ _type: MediaObject
 ---
 ### **i-Invested**
 
-Global open source ecosystem...where ideas come to life.
+### Global open source ecosystem...where ideas come to life.
 
 ### **Vision**
 
@@ -46,9 +46,13 @@ Our open innovation concept allows global businesses to plug into our platform a
 ### ANIMALS, ART, COMICS, COMMUNITY, CRAFTS, DANCE, DESIGN, EDUCATION, ENVIRONMENT, FASHION, FILM, FINANCE, FINTECH, FOOD, GAMES, JOURNALISM, HEALTH, MUSIC, PHOTOGRAPHY, POLITICS, PUBLISHING, SMEs, SPORTS, TECHNOLOGY, THEATRE, VIDEO & WEB, WRITING.
 
 ## **Featured in**
-![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/33f85b65-18f7-4512-ae86-9105e84c8dd8.jpg)
-![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/099b67e9-24dc-4e3d-bb85-eb5c20d1d671.jpg)
-![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/aad66132-99fb-4b72-8c3c-c634cce9ae9c.jpg)
+![Moving Mainstream
+The European Alternative Finance Benchmarking Report](https://the-grid-user-content.s3-us-west-2.amazonaws.com/33f85b65-18f7-4512-ae86-9105e84c8dd8.jpg)
+![PUSHING
+BOUNDARIES
+THE 2015 UK ALTERNATIVE
+FINANCE INDUSTRY REPORT](https://the-grid-user-content.s3-us-west-2.amazonaws.com/099b67e9-24dc-4e3d-bb85-eb5c20d1d671.jpg)
+![Member of Innovate Finance](https://the-grid-user-content.s3-us-west-2.amazonaws.com/aad66132-99fb-4b72-8c3c-c634cce9ae9c.jpg)
 
 # **COMING SOON**
 
