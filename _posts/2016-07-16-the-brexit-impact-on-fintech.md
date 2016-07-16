@@ -32,8 +32,8 @@ app_links: []
 isBasedOnUrl: >-
   https://www.linkedin.com/pulse/brexit-impact-fintech-tony-xhufi?trk=mp-author-card
 title: The Brexit Impact on Fintech
-datePublished: '2016-07-16T10:28:42.882Z'
-dateModified: '2016-07-16T10:28:42.800Z'
+datePublished: '2016-07-16T10:30:22.700Z'
+dateModified: '2016-07-16T10:30:22.619Z'
 sourcePath: _posts/2016-07-16-the-brexit-impact-on-fintech.md
 starred: false
 inFeed: true
