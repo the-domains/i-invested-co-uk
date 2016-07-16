@@ -1,7 +1,7 @@
 ---
 description: Our vision is to bring ideas to life by empowering innovative crowds.
-dateModified: '2016-07-16T11:19:12.922Z'
-datePublished: '2016-07-16T11:20:42.918Z'
+dateModified: '2016-07-16T11:34:54.533Z'
+datePublished: '2016-07-16T11:34:54.879Z'
 title: i-Invested
 author: []
 sourcePath: _posts/2016-07-16-i-invested.md
