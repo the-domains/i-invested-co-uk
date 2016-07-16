@@ -1,5 +1,5 @@
 ---
-datePublished: '2016-07-13T16:10:57.753Z'
+datePublished: '2016-07-16T10:30:22.932Z'
 sourcePath: _posts/2016-07-13-san-francisco-high-tide.md
 isBasedOnUrl: 'https://youtu.be/kvJxX7fk0gI'
 keywords:
@@ -18,7 +18,7 @@ author:
   - name: ''
     url: 'https://www.youtube.com/user/BlueEdenHD'
     avatar: {}
-dateModified: '2016-07-13T16:10:48.907Z'
+dateModified: '2016-07-16T10:30:22.769Z'
 title: San Francisco "High Tide"
 app_links:
   - url: 'vnd.youtube://www.youtube.com/watch?v=kvJxX7fk0gI&feature=applinks'
